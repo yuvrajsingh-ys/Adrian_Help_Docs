@@ -382,17 +382,17 @@
     "global": {
     }
   },
-  "favicon": "AIPLogo.png",
+  "favicon": "favicon.jpg",
 
   "logo": {
-    "light": "/logo/Light_and_Dark_AIP.png",
-    "dark": "/logo/Light_and_Dark_AIP.png"
+    "light": "/logo/Logo.jpg",
+    "dark": "/logo/Logo.jpg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:info@AIP.com"
+        "href": "mailto:support@avillainnovations.com"
       }
     ],
     "primary": {
