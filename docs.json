@@ -385,7 +385,7 @@
   "favicon": "favicon.jpg",
 
   "logo": {
-    "light": "/logo/Logo.jpg",
+    "light": "/images/AVillaLogo(1).jpg",
     "dark": "/logo/Logo.jpg"
   },
   "navbar": {
@@ -403,9 +403,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://www.linkedin.com/company/avilla-innovations-llc",
+      "instagram": "https://www.instagram.com/avillainnovations",
+      "facebook": "https://www.facebook.com/profile.php?id=61553584839799  "
     }
   }
 }
