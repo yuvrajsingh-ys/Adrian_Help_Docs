@@ -4,14 +4,14 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class ReplaceConvertalkFixes {
+public class ReplaceAIPFixes {
     public static void main(String[] args) {
         Path folderPath = Paths.get(".");
 
         try (Stream<Path> pathStream = Files.walk(folderPath)) {
             List<Path> allTextFiles = pathStream
                     .filter(Files::isRegularFile)
-                    .filter(ReplaceConvertalkFixes::isTextFile)
+                    .filter(ReplaceAIPFixes::isTextFile)
                     .collect(Collectors.toList());
 
             int totalFiles = allTextFiles.size();
@@ -55,8 +55,8 @@ public class ReplaceConvertalkFixes {
         try {
             String content = Files.readString(filePath);
             String updated = content
-                    .replace("_ Convertalk", "_Convertalk")
-                    .replace("how- Convertalk-works", "how-botpenguin-works");
+                    .replace("_ AIP", "_AIP")
+                    .replace("how- AIP-works", "how-botpenguin-works");
 
             if (!content.equals(updated)) {
                 Files.writeString(filePath, updated);

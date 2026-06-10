@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
        {
-        "tab": "How Convertalk Works?",
+        "tab": "How AIP Works?",
         "groups": [
            {
             "group": "Onboarding",
@@ -22,12 +22,12 @@
           {
             "group": "Create New Chatbot",
             "pages": [
-              "how-Convertalk-works/website_chatbot",
-              "how-Convertalk-works/landing_page_chatbot",
-              "how-Convertalk-works/whatsapp_chatbot",
-              "how-Convertalk-works/instagram_chatbot",
-              "how-Convertalk-works/facebook_chatbot",
-              "how-Convertalk-works/telegram_chatbot"            ]
+              "how-AIP-works/website_chatbot",
+              "how-AIP-works/landing_page_chatbot",
+              "how-AIP-works/whatsapp_chatbot",
+              "how-AIP-works/instagram_chatbot",
+              "how-AIP-works/facebook_chatbot",
+              "how-AIP-works/telegram_chatbot"            ]
           },
           {
             "group": "Edit Your Chatflow",
@@ -305,15 +305,15 @@
             ]
           },
           {
-            "group": "Must Know How Of Convertalk",
+            "group": "Must Know How Of AIP",
             "pages": [
-              "must-know-how-of-Convertalk/manage_use_custom_attributes",
-              "must-know-how-of-Convertalk/call_external_api",
-              "must-know-how-of-Convertalk/managing_team_roles",
-              "must-know-how-of-Convertalk/unlocking_botpenguin_ai",
-              "must-know-how-of-Convertalk/support_agent_guide",
-              "must-know-how-of-Convertalk/whatsapp_notification",
-              "must-know-how-of-Convertalk/chatbot_user_authentication"
+              "must-know-how-of-AIP/manage_use_custom_attributes",
+              "must-know-how-of-AIP/call_external_api",
+              "must-know-how-of-AIP/managing_team_roles",
+              "must-know-how-of-AIP/unlocking_botpenguin_ai",
+              "must-know-how-of-AIP/support_agent_guide",
+              "must-know-how-of-AIP/whatsapp_notification",
+              "must-know-how-of-AIP/chatbot_user_authentication"
             ]
           }
           
@@ -341,9 +341,9 @@
             ]
           },
           {
-            "group": "Convertalk Roadmap",
+            "group": "AIP Roadmap",
             "pages": [
-              "Convertalk-roadmap/development_timeline"
+              "AIP-roadmap/development_timeline"
             ]
           },
           {
@@ -382,23 +382,23 @@
     "global": {
     }
   },
-  "favicon": "ConvertalkLogo.png",
+  "favicon": "AIPLogo.png",
 
   "logo": {
-    "light": "/logo/Light_and_Dark_Convertalk.png",
-    "dark": "/logo/Light_and_Dark_Convertalk.png"
+    "light": "/logo/Light_and_Dark_AIP.png",
+    "dark": "/logo/Light_and_Dark_AIP.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:info@convertalk.com"
+        "href": "mailto:info@AIP.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://bot.convertalk.com"
+      "href": "https://bot.AIP.com"
     }
   },
   "footer": {
