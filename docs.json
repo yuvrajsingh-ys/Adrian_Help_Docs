@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "mintlify ",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0A0F5C",
+    "light": "#1A6BF5",
+    "dark": "#1A6BF5"
   },
   
   "navigation": {
