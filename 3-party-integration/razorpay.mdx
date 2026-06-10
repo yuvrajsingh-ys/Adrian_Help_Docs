@@ -17,16 +17,14 @@ This integration enables your WhatsApp bot created on  AIP to collect payments v
 
 1. Go to [ AIP](https://www. AIP.com/) and log into your account.
 2. Navigate to the dashboard and select the WhatsApp bot you want to integrate Razorpay with.
-3. \
-   Ensure that this bot is set up for handling customer interactions.
+3. Ensure that this bot is set up for handling customer interactions.
 
 ---
 
 #### **Step 2: Navigate to Third-Party App Integrations**
 
 1. After selecting your WhatsApp bot, locate the **Third-Party App Integrations** option in the bot settings.
-2. \
-   Click on this section to view available integrations.
+2. Click on this section to view available integrations.
 3. Search for **Razorpay** in the list.
 4. Click on the **Connect** button next to Razorpay.
 
@@ -38,18 +36,15 @@ To connect Razorpay with  AIP, you need the **Client ID** and **Client Secret** 
 
 1. Log into your Razorpay account.
 2. Use the search bar at the top to search for **API Keys**.
-3. \
-   You will be redirected to the **API Key Management** page.
+3. You will be redirected to the **API Key Management** page.
 4. If no keys are available, click on **Generate New API Key**.
-5. \
-   Copy the **Client ID** and **Client Secret** from this section.
+5. Copy the **Client ID** and **Client Secret** from this section.
 
 #### **Step 4: Connect Razorpay to  AIP**
 
 1. Return to the  AIP dashboard.
 2. Paste the **Client ID** and **Client Secret** into the Razorpay integration fields.
-3. \
-   Save the changes.
+3. Save the changes.
 
 #### **Step 5: Configure Webhooks for Razorpay**
 
@@ -59,12 +54,10 @@ To ensure that payment events are tracked correctly, you need to configure webho
 
 1. In your Razorpay account, go to **Account Settings**.
 2. Find and click on the **Webhooks** section.
-3. \
-   Click on **Add Webhook**.
+3. Click on **Add Webhook**.
 4. Go back to  AIP and copy the **Webhook URL** from the integration settings.
 5. Paste this URL into the Webhook URL field in Razorpay.
-6. \
-   Scroll down to select the following events:
+6. Scroll down to select the following events:
    - `payment.failed`
    - `payment_link.paid`
    - `payment_link.partially_paid`
@@ -75,12 +68,9 @@ To ensure that payment events are tracked correctly, you need to configure webho
 #### **Step 6: Edit Chatbot Conversation Flow**
 
 1. Navigate back to your  AIP bot editor.
-2. \
-   Select the payment chat component.
-3. \
-   Add Razorpay as the payment gateway from the available options.
-4. \
-   Customize the conversation flow to guide users through the payment process.
+2. Select the payment chat component.
+3. Add Razorpay as the payment gateway from the available options.
+4. Customize the conversation flow to guide users through the payment process.
 
 #### **Conclusion**
 
