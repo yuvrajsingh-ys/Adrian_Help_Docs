@@ -40,12 +40,6 @@
             ]
           },
           {
-            "group": "Pre-Built Chatbot Templates",
-            "pages": [
-              "prebuilt-chat-comp/prebuilt_chat_compo"
-            ]
-          },
-          {
             "group": "Train Your AI Chatbot",
             "pages": [
               "train-your-ai-chatbot/website",
